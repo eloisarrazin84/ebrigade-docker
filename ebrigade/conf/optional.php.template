@@ -1,0 +1,35 @@
+<?php
+  # project: eBrigade
+//=====================================================================
+// configurations spécifiques de l'application: 
+// ces variables sont facultatives
+//=====================================================================
+
+// additional header info, example below: google-analytics
+//$additional_header_info="<script type='text/javascript'>
+//    var _gaq = _gaq || [];
+//      _gaq.push(['_setAccount', 'UA-27280185-1']);
+//      _gaq.push(['_trackPageview']);
+//
+//      (function() {
+//        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+//        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+//        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+//      })();
+//
+//    </script>";
+
+//bloquer affichage des sous-sections par défaut?
+//$custom_subsections=0;
+
+// le public peut s'inscrire lui-même sur un tableau de garde? par défault 0 pour pompiers, 1 pour assoc
+//$public_can_enroll=1;
+
+// ne pas générer d'attestations de formation continues de secourisme à partir d'une certaine année
+//$no_attestations_continue_secourisme=2021;
+
+// si activité ouverte, on peut normalement toujours se desinscrire
+// si besoin on peut le permettre seulement le jour de l'inscription
+//$desinscription_seulement_jour_inscription=1;
+
+?>
